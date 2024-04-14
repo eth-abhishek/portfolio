@@ -838,6 +838,7 @@ canvas {
   padding-top: 2em;
 }
 .contact-section h2 {
+transition: all ease 0.5s;
   text-align: center;
   font-size: 2em;
   color: #1788ae;
@@ -931,6 +932,9 @@ canvas {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 136, 174, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(23, 136, 174, 0.25);
 }
+.contact-section .contact-form form button {
+  width: 200px;
+}
 /* theme toggle for form label */
 .label {
   color: var(--dark);
@@ -961,6 +965,12 @@ label {
 }
 .contact-section .contact-form form button.notSent {
   background-color: #f83d3d;
+}
+
+.contact-section h2:hover {
+  transition: all ease 0.5s;
+  color: #ffffff;
+  background-color: #1595b6;
 }
 
 /* Footer section starts from here */
@@ -1107,21 +1117,27 @@ footer .social-links li + li {
 }
 .main-section .latest-works-link {
   position: absolute;
-  background: -webkit-gradient(linear, right top, left top, from(#1595b6), to(rgba(31, 38, 103, 0.9)));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#1595b6),
+    to(rgba(31, 38, 103, 0.9))
+  );
   background: linear-gradient(to left, #1595b6, rgba(31, 38, 103, 0.9));
   font-weight: 700;
   padding: 0.5em 1em;
   font-size: 1.2em;
   border-radius: 5px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   bottom: 4em;
   display: inline-block;
   cursor: pointer;
   pointer-events: all;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   transition: -webkit-transform 0.1s ease-in-out;
   transition: transform 0.1s ease-in-out;
@@ -1135,7 +1151,7 @@ footer .social-links li + li {
 }
 .main-section .latest-works-link:hover {
   -webkit-transform: translate(-50%, 0) scale(1.1);
-          transform: translate(-50%, 0) scale(1.1);
+  transform: translate(-50%, 0) scale(1.1);
 }
 .main-section .latest-works-link:hover + .down-arrow {
   bottom: 1.75em;
@@ -1147,7 +1163,7 @@ footer .social-links li + li {
   pointer-events: all;
   left: 50%;
   -webkit-transform: translate(-60%, 0) rotate(90deg);
-          transform: translate(-60%, 0) rotate(90deg);
+  transform: translate(-60%, 0) rotate(90deg);
   -webkit-transition: bottom 0.25s ease-in-out;
   transition: bottom 0.25s ease-in-out;
 }
@@ -1164,7 +1180,7 @@ footer .social-links li + li {
   pointer-events: all;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 .main-section .latest-works-arrow:hover ~ .down-arrow {
   bottom: 1.75em;
