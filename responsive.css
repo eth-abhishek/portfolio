@@ -1,1 +1,41 @@
+/********* Mobile view *********/
 
+@media screen and (max-width:575px) {
+    .navigation {
+        display: none !important;
+    }
+
+    .hero-banner-image {
+        display: none !important;
+    }
+
+    .hero-section {
+        padding: 10px 0;
+    }
+
+    .skills_list ul li {
+        width: 100%;
+    }
+
+    .elisc_tm_counter,
+    .skills {
+        margin-bottom: 15px;
+    }
+
+    #canva-img {
+        width: 207px;
+        height: 210px;
+    }
+    .about-wrapper{
+        flex-direction: column;
+    }
+    .about-banner, .about-content{
+        width: 100%;
+    }
+
+    .section{
+        padding: 0;
+    }
+
+
+}

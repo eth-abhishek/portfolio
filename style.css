@@ -246,7 +246,7 @@ p {
   } */
 
 /* Changing text animation */
-
+/* 
 span.changing-text::before {
   content: "";
   animation: animate infinite 5s;
@@ -265,7 +265,7 @@ span.changing-text::before {
   75% {
     content: "Frontend Developer";
   }
-}
+} */
 
 .main-section:before {
   position: absolute;
