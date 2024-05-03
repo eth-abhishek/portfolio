@@ -1,0 +1,6 @@
+@media screen (max-width:575px) {
+    .skills_list ul li{
+        width: 100%;
+    }
+    
+}
