@@ -2103,6 +2103,8 @@ body::-webkit-scrollbar-thumb {
   resize: none;
   margin-bottom: 15px;
   background-color: #fff;
+  border: none;
+  padding: 50px 0 0 15px;
 }
 
 .elisc_tm_contact .fields .last textarea:focus {
