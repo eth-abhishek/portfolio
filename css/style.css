@@ -3729,7 +3729,7 @@ body::-webkit-scrollbar-thumb {
   width: 100px;
   height: 150px;
 }
-
+/* 
 .contact-overlay {
   background-image: url(../img/abhishek.webp);
   background-repeat: no-repeat;
@@ -3746,4 +3746,4 @@ body::-webkit-scrollbar-thumb {
   background-color: #000;
   opacity: 70%;
   z-index: -1;
-}
+} */
